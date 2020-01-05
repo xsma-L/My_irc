@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(54, 54, 54);
+  /* color: white; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+.form {
+  position: absolute;
+  background-color: white;
+  height: 100%;
+  width: 50%;
+  right: 0;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+.superchat {
+  position: relative;
+  float: right;
+  top: 110px;
+  width: 74%;
+}
+
+.form2 {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: 120px;
+  width: 100%;
+  background-color: white;
+  border: solid 1px rgb(10, 10, 10);
+}
+
+#chat {
+  margin-top: 0px;
+  background-color: aliceblue;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 68vh;
+  overflow-y: auto;
+  overflow-x: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  clear: both;
+}
+
+.input {
+  margin: 20px;
+}
+
+input {
+  margin-left: 10px;
+}
+
+.title {
+  background-color: white;
+  height: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+
+.user {
+  position: fixed;
+  padding: 30px;
+  height: 95vh;
+  width: 21.89%;
+  background-color: rgb(196, 33, 33);
+}
+
+/* #list {
+  position: relative;
+  float: right;
+  background-color: rgb(71, 71, 71);
+  margin-top: 111px;
+  height: 1000px;
+  border: 1px solid black;
+  color: rgb(116, 116, 116);
+  width: 25.8%;
+  z-index: -2000;
+} */
+
+#list h4 {
+  margin: 10px;
+}
+
+#list p{
+  color: #00db42;
+  margin-left: 10px;
+}
+
+#champ_message {
+  position: fixed;
+  top: 0;
+  background-color: #40ff2f;
+  width: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  height: 111px;
+  border: 1px solid black;
+  z-index: 1000;
+}
+
+#champ_message h2{
+  margin-top: 19px;
+  margin-left: 10px;
+}
+
+.leave {
+  margin-left: -1px;
+  margin-top: -1px;
+  border: 1px solid black;
+}
+
+.leave button {
+  letter-spacing: 0.2em;
+  width: 100.2%;
+  height: 30px;
+}
+
+.btn {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 101%;
+  width: 24%;
+}
+
+.btn2 {
+  height: 30px;
+  right: 0px;
+  bottom: 0;
+  width: 200px;
+}
+/* 
+button {
+  border: 1px solid black;
+} */
+
+#message {
+  float: left;
+  margin-top: -1px;
+  margin-left: -1px;
+  padding-left: 10px;
+  width: 74.82%;
+  height: 100%;
+}
+
+#titre {
+  left: 0;
+  background-color: rgb(153, 153, 153);
+  width: 97.4%;
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+h3 {
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.leschan {
+  background-color: #40ff2f;
+  color: white;
+  padding-bottom: 31px;
+  padding-left: 10%;
+  padding-right: 280px;
+  height: 100px;
+}
+
+.link a {
+  display: block;
+  color: rgb(78, 78, 78);
+  text-decoration: none;
+  border-top: 1px solid black;
+  background-color: white;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 43.27%;
+}
+
+#list a {
+  background-color: none;
+  color: #00db42;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.link { 
+  margin-top: 31px;
+}
+
+.petilink {
+  margin-top: 100px;
+}
+
+#user_message {
+  background-color: #00db42;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 5px;
+  margin-left: 50%;
+  margin-top: 10px;
+  min-width: 300px;
+  max-width: 500px;
+  color: white;
+}
+
+#user_message img {
+  float: left;
+  margin-left: -60px;
+}
+
+#contact_message {
+  background-color: rgba(184, 184, 184, 0.692);
+  border-radius: 25px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.otor {
+  font-size: 1.5em;
+  padding-left: 15px;
+  color: #535353;
+  margin: 0;
+}
+
+.copain {
+  font-size: 1.5em;
+  padding-left: 15px;
+  color: #40ff2f;
+  margin: 0;
+}
+
+::placeholder {
+  font-size: 8em;
+  opacity: 0.09;
+  overflow: hidden;
+}
+
+#chat2 {
+  margin-top: 200px;
+  background-color: aliceblue;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 50vh;
+  overflow-y: auto;
+  overflow-x: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  clear: both;
+}
+
+#champ_message2 {
+  position: fixed;
+  top: 0px;
+  background-color: #40ff2f;
+  width: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  height: 111px;
+  border: 1px solid black;
+  z-index: 1000;
+}
+
+#champ_message #titre{
+  position: fixed;
+  height: 80px;
+  top: 111px;
+  width: 100%;
+  left: -1px;
+}
+

@@ -1,0 +1,132 @@
+/* CSS media queries */
+@media screen and (min-width:1000px){
+    #list {
+        position: fixed;
+        float: right;
+        background-color: rgb(71, 71, 71);
+        margin-top: 112px;
+        height: 1000px;
+        border: 1px solid black;
+        color: rgb(116, 116, 116);
+        width: 25.86%;
+        z-index: 2000;
+      }
+    
+      body {
+        overflow-y: hidden;
+      }
+}
+
+@media screen and (max-width:1000px)/*endessous*/{
+    #list {
+        position: fixed;
+        float: right;
+        background-color: rgb(71, 71, 71);
+        margin-top: 11px;
+        height: 1000px;
+        border: 1px solid black;
+        color: rgb(116, 116, 116);
+        width: 25.8%;
+        z-index: -2000;
+      }
+
+      #champ_message {
+        position: fixed;
+        top: 0;
+        background-color: #40ff2f;
+        width: 100%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        height: 111px;
+        border: 1px solid black;
+        z-index: 1000;
+      }
+
+      body {
+        overflow-y: hidden;
+      }
+    }
+    
+    @media screen and (max-width:800px){
+        #champ_message {
+          font-size: 0.8em;
+        }
+    }
+    
+    @media screen and (max-width:768px){
+        #champ_message {
+          font-size: 0.7em;
+        }
+    }
+    
+    @media screen and (max-width:600px){
+        #champ_message {
+          font-size: 0.6em;
+        }
+        #titre {
+            left: 0;
+            background-color: rgb(153, 153, 153);
+            width: 97.4%;
+            font-size: 2.5em;
+            color: rgb(255, 255, 255);
+            border-bottom: 1px solid black;
+            border-right: 1px solid black;
+            padding-bottom: 10px;
+            padding-top: 10px;
+          }
+
+          body {
+            overflow-y: scroll;
+            overflow-x: none;
+          }
+
+          #list {
+            position: relative;
+            float: right;
+            background-color: rgb(71, 71, 71);
+            margin-top: 111px;
+            height: 1000px;
+            border: 1px solid black;
+            color: rgb(116, 116, 116);
+            width: 25.8%;
+            z-index: -2000;
+          }
+}
+
+@media screen and (max-width:550px){
+    body {
+        overflow-x: hidden;
+    }
+
+    #list {
+        position: fixed;
+        top: 0px;
+        float: none;
+        background-color: rgb(71, 71, 71);
+        margin-top: 111px;
+        height: 300px;
+        border: 1px solid black;
+        color: rgb(116, 116, 116);
+        width: 100%;
+        z-index: -3000;
+      }
+
+      .superchat {
+        position: relative;
+        float: none;
+        top: 140px;
+        width: 100%;
+      }
+
+      #chat {
+          border: 1px solid black;
+      }
+    
+}
+
+@media screen and (max-width:480px){
+}
+
+@media screen and (max-width:320px){  
+}
